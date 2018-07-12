@@ -16,13 +16,13 @@
     "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
-            "subratasd\\helper\\": "src/"
+            "subratasd\\helper\\vendor\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "subratasd\\helper\\src\\HelperServiceProvider"
+                "subratasd\\helper\\vendor\\HelperServiceProvider"
             ]
         }
     }

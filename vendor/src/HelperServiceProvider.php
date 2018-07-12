@@ -1,7 +1,7 @@
 <?php
 
 
-
+namespace subratasd\helper;
 use Illuminate\Support\ServiceProvider;
 
 class HelperServiceProvider extends ServiceProvider
@@ -14,7 +14,7 @@ class HelperServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'config/helper.php' => config_path('helper.php')
+            __DIR__.'/../config/helper.php' => config_path('helper.php')
         ], 'config');
 
     }
