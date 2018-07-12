@@ -1,0 +1,29 @@
+{
+    "name": "subraatsd/helper",
+    "description": "laravel exranal class",
+    "version": "1.0.0",
+    "type": "library",
+    "homepage": "https://sdsubrata.info/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "subrata sutradhar",
+            "email": "admin@sdsubrata.info",
+            "homepage": "https://sdsubrata.info/"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "subratasd\\helper\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "subratasd\\helper\\HelperServiceProvider"
+            ]
+        }
+    }
+}
