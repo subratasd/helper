@@ -1,5 +1,5 @@
 {
-    "name": "subraatsd/helper",
+    "name": "subratasd/helper",
     "description": "laravel exranal class",
     "version": "1.0.0",
     "type": "library",
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "subratasd\\helper\\vendor\\src\\HelperServiceProvider"
+                "subratasd\\helper\\vendor\\HelperServiceProvider"
             ]
         }
     }
