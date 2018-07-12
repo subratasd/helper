@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "subratasd\\helper\\vendor\\HelperServiceProvider"
+                "subratasd\\helper\\vendor\\src\\HelperServiceProvider"
             ]
         }
     }
